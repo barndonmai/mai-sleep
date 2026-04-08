@@ -10,8 +10,9 @@ export function formatTime(date) {
 }
 
 export function parseTimeToDate(timeStr) {
-    if (!timeStr) return null;
+    if (!timeStr || !timeStr.includes(":")) return null;
     const [h, m] = timeStr.split(":").map(Number);
+    if (!Number.isFinite(h) || !Number.isFinite(m)) return null;
     const now = new Date();
     const d = new Date(now);
     d.setHours(h, m, 0, 0);

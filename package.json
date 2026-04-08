@@ -9,7 +9,9 @@
     "build:ghpages": "vite build --mode ghpages",
     "preview": "vite preview",
     "predeploy": "npm run build:ghpages",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "node --test",
+    "test:watch": "node --test --watch"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.0",
