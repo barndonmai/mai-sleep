@@ -1,6 +1,6 @@
 # Better Sleep 😴
 A simple sleep cycle calculator inspired by sleepytime-style tools.
-> https://barndonmai.github.io/better-sleep/
+> https://better-sleep.vercel.app/
 
 **Better Sleep** helps you:
 - see the best times to wake up if you go to sleep now
