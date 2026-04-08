@@ -1,8 +1,8 @@
-# Better Sleep 😴
+# mai-sleep 😴
 A simple sleep cycle calculator inspired by sleepytime-style tools.
-> https://better-sleep.vercel.app/
+> https://mai-sleep.vercel.app/
 
-**Better Sleep** helps you:
+**mai-sleep** helps you:
 - see the best times to wake up if you go to sleep now
 - find recommended bedtimes based on when you want to wake up
 - use 90-minute sleep cycles (plus a small buffer for falling asleep)
@@ -24,7 +24,7 @@ Built with React + Vite, with a calm UI designed for nighttime use.
 
 ## How it works
 
-Sleep is often estimated in ~90-minute cycles. Better Sleep suggests times that line up with those cycles to help avoid waking up in the middle of one.
+Sleep is often estimated in ~90-minute cycles. mai-sleep suggests times that line up with those cycles to help avoid waking up in the middle of one.
 
 This app also includes a small fallback buffer (~14 minutes) for the time it takes to fall asleep.
 

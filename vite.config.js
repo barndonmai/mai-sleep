@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
   const isGithubPages = mode === "ghpages"
 
   return {
-    base: isGithubPages ? "/better-sleep/" : "/",
+    base: isGithubPages ? "/mai-sleep/" : "/",
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {

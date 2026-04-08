@@ -9,7 +9,7 @@ import NightBackground from "@/components/NightBackground";
 import { useTheme } from "@/hooks/useTheme";
 import { useSleepCalculator } from "@/hooks/useSleepCalculator";
 
-export default function BetterSleep() {
+export default function MaiSleep() {
   const { darkMode, classes } = useTheme(true);
 
   const {
@@ -84,7 +84,7 @@ export default function BetterSleep() {
               </div>
 
               <h1 className="text-4xl font-semibold tracking-tight">
-                Better Sleep
+                Mai Sleep
               </h1>
 
               <p className={`${classes.subtitle} text-center max-w-2xl`}>
@@ -126,7 +126,7 @@ export default function BetterSleep() {
             <div className="mt-3">
               Built with ♡ <span className="opacity-70">by Brandon Mai</span> ·{" "}
               <a
-                href="https://github.com/barndonmai/better-sleep"
+                href="https://github.com/barndonmai/mai-sleep"
                 className="underline underline-offset-4 hover:opacity-90"
               >
                 GitHub
